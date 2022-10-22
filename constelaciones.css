@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Nunito:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: #fff59d;
+}
+
+.header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+header .nav-links li{
+    display:inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+        color: #ffbc0e;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+.header .btn button:hover{
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform:  scale(1.1);
+    
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row .article{
+    background-color: #b3e5fc;
+    margin: .1%;
+    flex: 70%;
+}
+
+.row .article h3{
+    margin: 9px;
+}
+
+table{
+    width: 99%;
+    border-collapse: collapse;
+    padding: 40px;
+    margin: auto;
+}
+
+table, th, td{
+    border: 1px solid white;
+    
+}
+table td img{
+    width: 100%;
+}
+th{
+    height: 50%;
+    background-color: rgba(255, 228, 196, 0.486);
+}
+#titulo{
+    text-align: center;
+}
+#texto{
+    text-align: justify;
+    padding: 20px;
+}
+tr:hover{
+    background-color: rgba(15, 15, 73, 0.267);
+}
+
+.row .aside{
+    background-color: #e6ffff;
+    flex-direction: column;
+    width: 250px;
+    margin: .1%;
+    display: flex;
+}
+
+.aside .aside-news img{
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+.aside .hastag,
+aside .aside-news,
+.aside h2{
+    padding: 25px;
+}
+
+.footer{
+    background-color: #fff9c4;
+    padding: 30px;
+    margin: .1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

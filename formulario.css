@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Nunito:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+body{
+    background-image: linear-gradient(135deg, #7db67a 0, #71b882 4.17%, #65b98b 8.33%, #57ba95 12.5%, #49bb9e 16.67%, #39bba8 20.83%, #26bbb2 25%, #0abbbc 29.17%, #00bbc5 33.33%, #00bace 37.5%, #00b9d6 41.67%, #00b8dd 45.83%, #1fb6e3 50%, #37b4e8 54.17%, #4cb2ec 58.33%, #5fafee 62.5%, #70acef 66.67%, #81a9ef 70.83%, #91a6ed 75%, #a0a2ea 79.17%, #ad9fe5 83.33%, #ba9be0 87.5%, #c598d9 91.67%, #cf95d2 95.83%, #d892c9 100%);
+}
+
+.header{
+    background-color: #1b3039;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+header .nav-links li{
+    display:inline-block;
+    padding: 0 20px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+        color: #ffbc0e;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-left: 20px;
+}
+
+.header .btn button:hover{
+    background-color: #e2f1f8;
+    color: #ffbc0e;
+    transform:  scale(1.1);
+    
+}
+
+.form-register{
+    width: 400px;
+    background: #1b3039;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "calibri";
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.controls{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size: 18px;
+    color: white;
+}
+
+.form-register p{
+    height: 55px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+.form-register a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-register a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.form-register .botons{
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0px;
+    font-size: 16px;
+}
